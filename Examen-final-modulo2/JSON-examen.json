@@ -1,0 +1,59 @@
+{
+    "eventVersion": "1.11",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZQ3DSS4VF5OGJVVDU",
+        "arn": "arn:aws:iam::654654478122:user/students/sebastiantobon1624@gmail.com",
+        "accountId": "654654478122",
+        "accessKeyId": "ASIAZQ3DSS4VHBHMWKE5",
+        "userName": "sebastiantobon1624@gmail.com",
+        "sessionContext": {
+            "attributes": {
+                "creationDate": "2026-03-17T00:46:42Z",
+                "mfaAuthenticated": "true"
+            }
+        },
+        "invokedBy": "autoscaling.amazonaws.com"
+    },
+    "eventTime": "2026-03-17T01:21:45Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "RunInstances",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "autoscaling.amazonaws.com",
+    "userAgent": "autoscaling.amazonaws.com",
+    "errorCode": "Client.DryRunOperation",
+    "errorMessage": "Request would have succeeded, but DryRun flag is set.",
+    "requestParameters": {
+        "instancesSet": {
+            "items": [
+                {
+                    "minCount": 1,
+                    "maxCount": 1
+                }
+            ]
+        },
+        "instanceType": "t2.micro",
+        "blockDeviceMapping": {},
+        "availabilityZone": "us-east-1b",
+        "monitoring": {
+            "enabled": false
+        },
+        "subnetId": "subnet-07a56e2b85da63272",
+        "disableApiTermination": false,
+        "disableApiStop": false,
+        "clientToken": "98f82e76-f39d-4edc-9ea2-8075d893a4ba",
+        "launchTemplate": {
+            "launchTemplateId": "lt-0f6b3200bdfb610ab",
+            "version": "1"
+        }
+    },
+    "responseElements": null,
+    "requestID": "e0cdb55c-71a4-4c97-ac05-9f09931a9b9e",
+    "eventID": "b3c9a2e6-c866-47dc-8a52-3d30c4f8f781",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "654654478122",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}
